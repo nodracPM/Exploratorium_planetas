@@ -1,0 +1,7 @@
+Attribute|Class|Title|Formula|Explanation|Reference
+Fusión|fusion|Fusión||El objeto es lo suficientemente masivo como para producir la fusión nuclear.|
+Alrededor de una estrella|orbit|Alrededor de una estrella||El objeto orbita alrededor de otra estrella|
+Alrededor del Sol|orbit|Alrededor del Sol||El objeto orbita alrededor del Sol.|
+Limpiado|orbit|Órbita limpia||El objeto ha limpiado su órbita de objetos sólidos que se cree que existen en discos protoplanetarios y discos de escombros, llamados planetesimales.|
+Sí tiene Satélites|satellites|Sí tiene satélites||El objeto tiene satélites.|
+Esférico|spherical|Esférico||El objeto es lo suficientemente masivo como para ser redondeado por su propia gravedad.|
