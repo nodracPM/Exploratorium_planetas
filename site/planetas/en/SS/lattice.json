@@ -14,59 +14,287 @@
          ],
          "intent" : [],
          "md5" : "5f0749ec42bf2265e6792520560f360b"
+      },
+      {
+         "extent" : [],
+         "intent" : [
+            "Big",
+            "Far",
+            "Has satellites",
+            "Medium",
+            "Near",
+            "Small"
+         ],
+         "md5" : "439f6c4c095ebbb5ac7228b888ff3ecc"
+      },
+      {
+         "extent" : [
+            "Earth",
+            "Mars",
+            "Mer",
+            "Pluto",
+            "Ven"
+         ],
+         "intent" : [
+            "Small"
+         ],
+         "md5" : "ed8ae15d1df9479325827d31942fd148"
+      },
+      {
+         "extent" : [
+            "Earth",
+            "Mars",
+            "Mer",
+            "Ven"
+         ],
+         "intent" : [
+            "Near",
+            "Small"
+         ],
+         "md5" : "bb13783c6a2bdaaa9c7d69e55e61b630"
+      },
+      {
+         "extent" : [
+            "Earth",
+            "Mars"
+         ],
+         "intent" : [
+            "Has satellites",
+            "Near",
+            "Small"
+         ],
+         "md5" : "b1d5ce86c33a8d3d1864e3aa74fb9184"
+      },
+      {
+         "extent" : [
+            "Earth",
+            "Mars",
+            "Pluto"
+         ],
+         "intent" : [
+            "Has satellites",
+            "Small"
+         ],
+         "md5" : "20272c46e0e044f60c737c726d237339"
+      },
+      {
+         "extent" : [
+            "Pluto"
+         ],
+         "intent" : [
+            "Far",
+            "Has satellites",
+            "Small"
+         ],
+         "md5" : "cfc811af11c041bf57623e3f2621b050"
+      },
+      {
+         "extent" : [
+            "Earth",
+            "Jup",
+            "Mars",
+            "Nep",
+            "Pluto",
+            "Sat",
+            "Uran"
+         ],
+         "intent" : [
+            "Has satellites"
+         ],
+         "md5" : "50013eb912283775510992fbf11ebd54"
+      },
+      {
+         "extent" : [
+            "Jup",
+            "Nep",
+            "Pluto",
+            "Sat",
+            "Uran"
+         ],
+         "intent" : [
+            "Far",
+            "Has satellites"
+         ],
+         "md5" : "35682459768a331bb92e25331298ce10"
+      },
+      {
+         "extent" : [
+            "Nep",
+            "Uran"
+         ],
+         "intent" : [
+            "Far",
+            "Has satellites",
+            "Medium"
+         ],
+         "md5" : "e4b98340e9a0126bc649ebce90f6fa18"
+      },
+      {
+         "extent" : [
+            "Jup",
+            "Sat"
+         ],
+         "intent" : [
+            "Big",
+            "Far",
+            "Has satellites"
+         ],
+         "md5" : "99e07d5e151c3d9448294c495cae0930"
       }
    ],
    "context" : {
       "Earth" : {
-         "attributes" : [],
+         "attributes" : [
+            "Has satellites",
+            "Near",
+            "Small"
+         ],
          "id" : "Earth",
          "name" : "Earth"
       },
       "Jup" : {
-         "attributes" : [],
+         "attributes" : [
+            "Big",
+            "Far",
+            "Has satellites"
+         ],
          "id" : "Jup",
          "name" : "Jupiter"
       },
       "Mars" : {
-         "attributes" : [],
+         "attributes" : [
+            "Has satellites",
+            "Near",
+            "Small"
+         ],
          "id" : "Mars",
          "name" : "Mars"
       },
       "Mer" : {
-         "attributes" : [],
+         "attributes" : [
+            "Near",
+            "Small"
+         ],
          "id" : "Mer",
          "name" : "Mercury"
       },
       "Nep" : {
-         "attributes" : [],
+         "attributes" : [
+            "Far",
+            "Has satellites",
+            "Medium"
+         ],
          "id" : "Nep",
          "name" : "Neptune"
       },
       "Pluto" : {
-         "attributes" : [],
+         "attributes" : [
+            "Far",
+            "Has satellites",
+            "Small"
+         ],
          "id" : "Pluto",
          "name" : "Pluto"
       },
       "Sat" : {
-         "attributes" : [],
+         "attributes" : [
+            "Big",
+            "Far",
+            "Has satellites"
+         ],
          "id" : "Sat",
          "name" : "Saturn"
       },
       "Uran" : {
-         "attributes" : [],
+         "attributes" : [
+            "Far",
+            "Has satellites",
+            "Medium"
+         ],
          "id" : "Uran",
          "name" : "Uranus"
       },
       "Ven" : {
-         "attributes" : [],
+         "attributes" : [
+            "Near",
+            "Small"
+         ],
          "id" : "Ven",
          "name" : "Venus"
       }
    },
-   "links" : [],
+   "links" : [
+      {
+         "source" : 0,
+         "target" : 2
+      },
+      {
+         "source" : 0,
+         "target" : 7
+      },
+      {
+         "source" : 2,
+         "target" : 3
+      },
+      {
+         "source" : 2,
+         "target" : 5
+      },
+      {
+         "source" : 3,
+         "target" : 4
+      },
+      {
+         "source" : 4,
+         "target" : 1
+      },
+      {
+         "source" : 5,
+         "target" : 4
+      },
+      {
+         "source" : 5,
+         "target" : 6
+      },
+      {
+         "source" : 6,
+         "target" : 1
+      },
+      {
+         "source" : 7,
+         "target" : 5
+      },
+      {
+         "source" : 7,
+         "target" : 8
+      },
+      {
+         "source" : 8,
+         "target" : 6
+      },
+      {
+         "source" : 8,
+         "target" : 9
+      },
+      {
+         "source" : 8,
+         "target" : 10
+      },
+      {
+         "source" : 9,
+         "target" : 1
+      },
+      {
+         "source" : 10,
+         "target" : 1
+      }
+   ],
    "nodes" : [
       {
-         "children" : [],
+         "children" : [
+            "897639808",
+            "178508024"
+         ],
          "concept" : {
             "extent" : [
                "Earth",
@@ -82,22 +310,303 @@
             "intent" : [],
             "md5" : "5f0749ec42bf2265e6792520560f360b"
          },
-         "hash" : "649344070",
+         "hash" : "477253152",
          "idx" : 0,
          "labelAttributes" : [],
+         "labelObjects" : [],
+         "level" : "4",
+         "parents" : []
+      },
+      {
+         "children" : [],
+         "concept" : {
+            "extent" : [],
+            "intent" : [
+               "Big",
+               "Far",
+               "Has satellites",
+               "Medium",
+               "Near",
+               "Small"
+            ],
+            "md5" : "439f6c4c095ebbb5ac7228b888ff3ecc"
+         },
+         "hash" : "1763527588",
+         "idx" : 1,
+         "labelAttributes" : [],
+         "labelObjects" : [],
+         "level" : "0",
+         "parents" : [
+            "1734127875",
+            "260593218",
+            "1921728631",
+            "1808477047"
+         ]
+      },
+      {
+         "children" : [
+            "610937475",
+            "206196353"
+         ],
+         "concept" : {
+            "extent" : [
+               "Earth",
+               "Mars",
+               "Mer",
+               "Pluto",
+               "Ven"
+            ],
+            "intent" : [
+               "Small"
+            ],
+            "md5" : "ed8ae15d1df9479325827d31942fd148"
+         },
+         "hash" : "897639808",
+         "idx" : 2,
+         "labelAttributes" : [
+            "Small"
+         ],
+         "labelObjects" : [],
+         "level" : "3",
+         "parents" : [
+            "477253152"
+         ]
+      },
+      {
+         "children" : [
+            "1734127875"
+         ],
+         "concept" : {
+            "extent" : [
+               "Earth",
+               "Mars",
+               "Mer",
+               "Ven"
+            ],
+            "intent" : [
+               "Near",
+               "Small"
+            ],
+            "md5" : "bb13783c6a2bdaaa9c7d69e55e61b630"
+         },
+         "hash" : "610937475",
+         "idx" : 3,
+         "labelAttributes" : [
+            "Near"
+         ],
          "labelObjects" : [
             "Ven",
-            "Uran",
-            "Sat",
-            "Pluto",
-            "Nep",
-            "Mer",
+            "Mer"
+         ],
+         "level" : "2",
+         "parents" : [
+            "897639808"
+         ]
+      },
+      {
+         "children" : [
+            "1763527588"
+         ],
+         "concept" : {
+            "extent" : [
+               "Earth",
+               "Mars"
+            ],
+            "intent" : [
+               "Has satellites",
+               "Near",
+               "Small"
+            ],
+            "md5" : "b1d5ce86c33a8d3d1864e3aa74fb9184"
+         },
+         "hash" : "1734127875",
+         "idx" : 4,
+         "labelAttributes" : [],
+         "labelObjects" : [
             "Mars",
-            "Jup",
             "Earth"
          ],
-         "level" : "0",
-         "parents" : []
+         "level" : "1",
+         "parents" : [
+            "610937475",
+            "206196353"
+         ]
+      },
+      {
+         "children" : [
+            "1734127875",
+            "260593218"
+         ],
+         "concept" : {
+            "extent" : [
+               "Earth",
+               "Mars",
+               "Pluto"
+            ],
+            "intent" : [
+               "Has satellites",
+               "Small"
+            ],
+            "md5" : "20272c46e0e044f60c737c726d237339"
+         },
+         "hash" : "206196353",
+         "idx" : 5,
+         "labelAttributes" : [],
+         "labelObjects" : [],
+         "level" : "2",
+         "parents" : [
+            "897639808",
+            "178508024"
+         ]
+      },
+      {
+         "children" : [
+            "1763527588"
+         ],
+         "concept" : {
+            "extent" : [
+               "Pluto"
+            ],
+            "intent" : [
+               "Far",
+               "Has satellites",
+               "Small"
+            ],
+            "md5" : "cfc811af11c041bf57623e3f2621b050"
+         },
+         "hash" : "260593218",
+         "idx" : 6,
+         "labelAttributes" : [],
+         "labelObjects" : [
+            "Pluto"
+         ],
+         "level" : "1",
+         "parents" : [
+            "206196353",
+            "1660861687"
+         ]
+      },
+      {
+         "children" : [
+            "206196353",
+            "1660861687"
+         ],
+         "concept" : {
+            "extent" : [
+               "Earth",
+               "Jup",
+               "Mars",
+               "Nep",
+               "Pluto",
+               "Sat",
+               "Uran"
+            ],
+            "intent" : [
+               "Has satellites"
+            ],
+            "md5" : "50013eb912283775510992fbf11ebd54"
+         },
+         "hash" : "178508024",
+         "idx" : 7,
+         "labelAttributes" : [
+            "Has satellites"
+         ],
+         "labelObjects" : [],
+         "level" : "3",
+         "parents" : [
+            "477253152"
+         ]
+      },
+      {
+         "children" : [
+            "260593218",
+            "1921728631",
+            "1808477047"
+         ],
+         "concept" : {
+            "extent" : [
+               "Jup",
+               "Nep",
+               "Pluto",
+               "Sat",
+               "Uran"
+            ],
+            "intent" : [
+               "Far",
+               "Has satellites"
+            ],
+            "md5" : "35682459768a331bb92e25331298ce10"
+         },
+         "hash" : "1660861687",
+         "idx" : 8,
+         "labelAttributes" : [
+            "Far"
+         ],
+         "labelObjects" : [],
+         "level" : "2",
+         "parents" : [
+            "178508024"
+         ]
+      },
+      {
+         "children" : [
+            "1763527588"
+         ],
+         "concept" : {
+            "extent" : [
+               "Nep",
+               "Uran"
+            ],
+            "intent" : [
+               "Far",
+               "Has satellites",
+               "Medium"
+            ],
+            "md5" : "e4b98340e9a0126bc649ebce90f6fa18"
+         },
+         "hash" : "1921728631",
+         "idx" : 9,
+         "labelAttributes" : [
+            "Medium"
+         ],
+         "labelObjects" : [
+            "Uran",
+            "Nep"
+         ],
+         "level" : "1",
+         "parents" : [
+            "1660861687"
+         ]
+      },
+      {
+         "children" : [
+            "1763527588"
+         ],
+         "concept" : {
+            "extent" : [
+               "Jup",
+               "Sat"
+            ],
+            "intent" : [
+               "Big",
+               "Far",
+               "Has satellites"
+            ],
+            "md5" : "99e07d5e151c3d9448294c495cae0930"
+         },
+         "hash" : "1808477047",
+         "idx" : 10,
+         "labelAttributes" : [
+            "Big"
+         ],
+         "labelObjects" : [
+            "Sat",
+            "Jup"
+         ],
+         "level" : "1",
+         "parents" : [
+            "1660861687"
+         ]
       }
    ]
 }
