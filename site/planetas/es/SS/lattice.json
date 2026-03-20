@@ -1,612 +1,103 @@
 {
-	"context":{
-		"Jup":{
-			"name":"Júpiter",
-			"id":"Jup",
-			"attributes":[
-				"Grande",
-				"Lejos",
-				"Sí tiene Satélites"
-			]
-		},
-		"Mars":{
-			"name":"Marte",
-			"id":"Mars",
-			"attributes":[
-				"Cerca",
-				"Chico",
-				"Sí tiene Satélites"
-			]
-		},
-		"Mer":{
-			"name":"Mercurio",
-			"id":"Mer",
-			"attributes":[
-				"Cerca",
-				"Chico"
-			]
-		},
-		"Nep":{
-			"name":"Neptuno",
-			"id":"Nep",
-			"attributes":[
-				"Lejos",
-				"Mediano",
-				"Sí tiene Satélites"
-			]
-		},
-		"Pluto":{
-			"name":"Plutón",
-			"id":"Pluto",
-			"attributes":[
-				"Chico",
-				"Lejos",
-				"Sí tiene Satélites"
-			]
-		},
-		"Sat":{
-			"name":"Saturno",
-			"id":"Sat",
-			"attributes":[
-				"Grande",
-				"Lejos",
-				"Sí tiene Satélites"
-			]
-		},
-		"Earth":{
-			"name":"Tierra",
-			"id":"Earth",
-			"attributes":[
-				"Cerca",
-				"Chico",
-				"Sí tiene Satélites"
-			]
-		},
-		"Uran":{
-			"name":"Urano",
-			"id":"Uran",
-			"attributes":[
-				"Lejos",
-				"Mediano",
-				"Sí tiene Satélites"
-			]
-		},
-		"Ven":{
-			"name":"Venus",
-			"id":"Ven",
-			"attributes":[
-				"Cerca",
-				"Chico"
-			]
-		}
-	},
-	"concepts":[
-		{
-			"intent":[],
-			"extent":[
-				"Jup",
-				"Mars",
-				"Mer",
-				"Nep",
-				"Pluto",
-				"Sat",
-				"Earth",
-				"Uran",
-				"Ven"
-			],
-			"md5":"296dc9956bef436006002e0341f2d11d"
-		},
-		{
-			"intent":[
-				"Cerca",
-				"Chico",
-				"Grande",
-				"Lejos",
-				"Mediano",
-				"Sí tiene Satélites"
-			],
-			"extent":[],
-			"md5":"3a00cf2134f1f5f00aad09d21b2066e3"
-		},
-		{
-			"intent":[
-				"Sí tiene Satélites"
-			],
-			"extent":[
-				"Jup",
-				"Mars",
-				"Nep",
-				"Pluto",
-				"Sat",
-				"Earth",
-				"Uran"
-			],
-			"md5":"c35ce8db037495537756e8213a2b90e4"
-		},
-		{
-			"intent":[
-				"Lejos",
-				"Sí tiene Satélites"
-			],
-			"extent":[
-				"Jup",
-				"Nep",
-				"Pluto",
-				"Sat",
-				"Uran"
-			],
-			"md5":"24a69fc972916d48b7330602078439f8"
-		},
-		{
-			"intent":[
-				"Lejos",
-				"Mediano",
-				"Sí tiene Satélites"
-			],
-			"extent":[
-				"Nep",
-				"Uran"
-			],
-			"md5":"4d98c332339899ef225a1f8f48305286"
-		},
-		{
-			"intent":[
-				"Grande",
-				"Lejos",
-				"Sí tiene Satélites"
-			],
-			"extent":[
-				"Jup",
-				"Sat"
-			],
-			"md5":"9b3dd0eec7fb8b1ed72e630435fc2a7f"
-		},
-		{
-			"intent":[
-				"Chico",
-				"Lejos",
-				"Sí tiene Satélites"
-			],
-			"extent":[
-				"Pluto"
-			],
-			"md5":"2fc375e76879f766c6fba43ac1704bca"
-		},
-		{
-			"intent":[
-				"Chico",
-				"Sí tiene Satélites"
-			],
-			"extent":[
-				"Mars",
-				"Pluto",
-				"Earth"
-			],
-			"md5":"b18c8a719346e6d232c9c4aae194cdbb"
-		},
-		{
-			"intent":[
-				"Cerca",
-				"Chico",
-				"Sí tiene Satélites"
-			],
-			"extent":[
-				"Mars",
-				"Earth"
-			],
-			"md5":"bb6d0d0e30c5253699a5f8ab771c21c3"
-		},
-		{
-			"intent":[
-				"Chico"
-			],
-			"extent":[
-				"Mars",
-				"Mer",
-				"Pluto",
-				"Earth",
-				"Ven"
-			],
-			"md5":"79ba2d33704c0cff7aed5b542561bd59"
-		},
-		{
-			"intent":[
-				"Cerca",
-				"Chico"
-			],
-			"extent":[
-				"Mars",
-				"Mer",
-				"Earth",
-				"Ven"
-			],
-			"md5":"cdf5125028a27a476917b8bce3323c13"
-		}
-	],
-	"nodes":[
-		{
-			"hash":"1855742910",
-			"idx":0,
-			"level":4,
-			"concept":{
-				"intent":[],
-				"extent":[
-					"Jup",
-					"Mars",
-					"Mer",
-					"Nep",
-					"Pluto",
-					"Sat",
-					"Earth",
-					"Uran",
-					"Ven"
-				],
-				"md5":"296dc9956bef436006002e0341f2d11d"
-			},
-			"parents":[],
-			"children":[
-				"1641785590",
-				"834078570"
-			],
-			"labelObjects":[],
-			"labelAttributes":[]
-		},
-		{
-			"hash":"2087299348",
-			"idx":1,
-			"level":0,
-			"concept":{
-				"intent":[
-					"Cerca",
-					"Chico",
-					"Grande",
-					"Lejos",
-					"Mediano",
-					"Sí tiene Satélites"
-				],
-				"extent":[],
-				"md5":"3a00cf2134f1f5f00aad09d21b2066e3"
-			},
-			"parents":[
-				"71969819",
-				"90804494",
-				"1722703199",
-				"556759484"
-			],
-			"children":[],
-			"labelObjects":[],
-			"labelAttributes":[]
-		},
-		{
-			"hash":"1641785590",
-			"idx":2,
-			"level":3,
-			"concept":{
-				"intent":[
-					"Sí tiene Satélites"
-				],
-				"extent":[
-					"Jup",
-					"Mars",
-					"Nep",
-					"Pluto",
-					"Sat",
-					"Earth",
-					"Uran"
-				],
-				"md5":"c35ce8db037495537756e8213a2b90e4"
-			},
-			"parents":[
-				"1855742910"
-			],
-			"children":[
-				"385504712",
-				"626391955"
-			],
-			"labelObjects":[],
-			"labelAttributes":[
-				"Sí tiene Satélites"
-			]
-		},
-		{
-			"hash":"385504712",
-			"idx":3,
-			"level":2,
-			"concept":{
-				"intent":[
-					"Lejos",
-					"Sí tiene Satélites"
-				],
-				"extent":[
-					"Jup",
-					"Nep",
-					"Pluto",
-					"Sat",
-					"Uran"
-				],
-				"md5":"24a69fc972916d48b7330602078439f8"
-			},
-			"parents":[
-				"1641785590"
-			],
-			"children":[
-				"71969819",
-				"90804494",
-				"1722703199"
-			],
-			"labelObjects":[],
-			"labelAttributes":[
-				"Lejos"
-			]
-		},
-		{
-			"hash":"71969819",
-			"idx":4,
-			"level":1,
-			"concept":{
-				"intent":[
-					"Lejos",
-					"Mediano",
-					"Sí tiene Satélites"
-				],
-				"extent":[
-					"Nep",
-					"Uran"
-				],
-				"md5":"4d98c332339899ef225a1f8f48305286"
-			},
-			"parents":[
-				"385504712"
-			],
-			"children":[
-				"2087299348"
-			],
-			"labelObjects":[
-				"Uran",
-				"Nep"
-			],
-			"labelAttributes":[
-				"Mediano"
-			]
-		},
-		{
-			"hash":"90804494",
-			"idx":5,
-			"level":1,
-			"concept":{
-				"intent":[
-					"Grande",
-					"Lejos",
-					"Sí tiene Satélites"
-				],
-				"extent":[
-					"Jup",
-					"Sat"
-				],
-				"md5":"9b3dd0eec7fb8b1ed72e630435fc2a7f"
-			},
-			"parents":[
-				"385504712"
-			],
-			"children":[
-				"2087299348"
-			],
-			"labelObjects":[
-				"Sat",
-				"Jup"
-			],
-			"labelAttributes":[
-				"Grande"
-			]
-		},
-		{
-			"hash":"1722703199",
-			"idx":6,
-			"level":1,
-			"concept":{
-				"intent":[
-					"Chico",
-					"Lejos",
-					"Sí tiene Satélites"
-				],
-				"extent":[
-					"Pluto"
-				],
-				"md5":"2fc375e76879f766c6fba43ac1704bca"
-			},
-			"parents":[
-				"385504712",
-				"626391955"
-			],
-			"children":[
-				"2087299348"
-			],
-			"labelObjects":[
-				"Pluto"
-			],
-			"labelAttributes":[]
-		},
-		{
-			"hash":"626391955",
-			"idx":7,
-			"level":2,
-			"concept":{
-				"intent":[
-					"Chico",
-					"Sí tiene Satélites"
-				],
-				"extent":[
-					"Mars",
-					"Pluto",
-					"Earth"
-				],
-				"md5":"b18c8a719346e6d232c9c4aae194cdbb"
-			},
-			"parents":[
-				"1641785590",
-				"834078570"
-			],
-			"children":[
-				"1722703199",
-				"556759484"
-			],
-			"labelObjects":[],
-			"labelAttributes":[]
-		},
-		{
-			"hash":"556759484",
-			"idx":8,
-			"level":1,
-			"concept":{
-				"intent":[
-					"Cerca",
-					"Chico",
-					"Sí tiene Satélites"
-				],
-				"extent":[
-					"Mars",
-					"Earth"
-				],
-				"md5":"bb6d0d0e30c5253699a5f8ab771c21c3"
-			},
-			"parents":[
-				"626391955",
-				"632224962"
-			],
-			"children":[
-				"2087299348"
-			],
-			"labelObjects":[
-				"Earth",
-				"Mars"
-			],
-			"labelAttributes":[]
-		},
-		{
-			"hash":"834078570",
-			"idx":9,
-			"level":3,
-			"concept":{
-				"intent":[
-					"Chico"
-				],
-				"extent":[
-					"Mars",
-					"Mer",
-					"Pluto",
-					"Earth",
-					"Ven"
-				],
-				"md5":"79ba2d33704c0cff7aed5b542561bd59"
-			},
-			"parents":[
-				"1855742910"
-			],
-			"children":[
-				"626391955",
-				"632224962"
-			],
-			"labelObjects":[],
-			"labelAttributes":[
-				"Chico"
-			]
-		},
-		{
-			"hash":"632224962",
-			"idx":10,
-			"level":2,
-			"concept":{
-				"intent":[
-					"Cerca",
-					"Chico"
-				],
-				"extent":[
-					"Mars",
-					"Mer",
-					"Earth",
-					"Ven"
-				],
-				"md5":"cdf5125028a27a476917b8bce3323c13"
-			},
-			"parents":[
-				"834078570"
-			],
-			"children":[
-				"556759484"
-			],
-			"labelObjects":[
-				"Ven",
-				"Mer"
-			],
-			"labelAttributes":[
-				"Cerca"
-			]
-		}
-	],
-	"links":[
-		{
-			"source":0,
-			"target":2
-		},
-		{
-			"source":0,
-			"target":9
-		},
-		{
-			"source":2,
-			"target":3
-		},
-		{
-			"source":2,
-			"target":7
-		},
-		{
-			"source":3,
-			"target":4
-		},
-		{
-			"source":3,
-			"target":5
-		},
-		{
-			"source":3,
-			"target":6
-		},
-		{
-			"source":4,
-			"target":1
-		},
-		{
-			"source":5,
-			"target":1
-		},
-		{
-			"source":6,
-			"target":1
-		},
-		{
-			"source":7,
-			"target":6
-		},
-		{
-			"source":7,
-			"target":8
-		},
-		{
-			"source":8,
-			"target":1
-		},
-		{
-			"source":9,
-			"target":7
-		},
-		{
-			"source":9,
-			"target":10
-		},
-		{
-			"source":10,
-			"target":8
-		}
-	]
+   "concepts" : [
+      {
+         "extent" : [
+            "Jup",
+            "Mars",
+            "Mer",
+            "Nep",
+            "Pluto",
+            "Sat",
+            "Earth",
+            "Uran",
+            "Ven"
+         ],
+         "intent" : [],
+         "md5" : "296dc9956bef436006002e0341f2d11d"
+      }
+   ],
+   "context" : {
+      "Earth" : {
+         "attributes" : [],
+         "id" : "Earth",
+         "name" : "Tierra"
+      },
+      "Jup" : {
+         "attributes" : [],
+         "id" : "Jup",
+         "name" : "Júpiter"
+      },
+      "Mars" : {
+         "attributes" : [],
+         "id" : "Mars",
+         "name" : "Marte"
+      },
+      "Mer" : {
+         "attributes" : [],
+         "id" : "Mer",
+         "name" : "Mercurio"
+      },
+      "Nep" : {
+         "attributes" : [],
+         "id" : "Nep",
+         "name" : "Neptuno"
+      },
+      "Pluto" : {
+         "attributes" : [],
+         "id" : "Pluto",
+         "name" : "Plutón"
+      },
+      "Sat" : {
+         "attributes" : [],
+         "id" : "Sat",
+         "name" : "Saturno"
+      },
+      "Uran" : {
+         "attributes" : [],
+         "id" : "Uran",
+         "name" : "Urano"
+      },
+      "Ven" : {
+         "attributes" : [],
+         "id" : "Ven",
+         "name" : "Venus"
+      }
+   },
+   "links" : [],
+   "nodes" : [
+      {
+         "children" : [],
+         "concept" : {
+            "extent" : [
+               "Jup",
+               "Mars",
+               "Mer",
+               "Nep",
+               "Pluto",
+               "Sat",
+               "Earth",
+               "Uran",
+               "Ven"
+            ],
+            "intent" : [],
+            "md5" : "296dc9956bef436006002e0341f2d11d"
+         },
+         "hash" : "2122730538",
+         "idx" : 0,
+         "labelAttributes" : [],
+         "labelObjects" : [
+            "Ven",
+            "Uran",
+            "Earth",
+            "Sat",
+            "Pluto",
+            "Nep",
+            "Mer",
+            "Mars",
+            "Jup"
+         ],
+         "level" : "0",
+         "parents" : []
+      }
+   ]
 }

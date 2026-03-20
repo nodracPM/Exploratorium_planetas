@@ -337,6 +337,11 @@ svg.show-levels .node-level {
   cursor: grab;
 }
 
+.node .objects-label,
+.node .objects-label * {
+  cursor: pointer;
+}
+
 .drag * {
 	cursor: grabbing !important;
 }
@@ -455,30 +460,33 @@ html {
 	--node-stroke-width: 3px;
 }
 
-.textbox-box.box-size {
-	--fill: #89C4C2;
+.textbox-box.box-Metodo {
+	--fill: #84b59e;
 }
 
-.textbox-box.box-distance {
-	--fill: #D0EBC5;
+.textbox-box.box-Linea {
+	--fill: #f0da5b;
 }
 
-.textbox-box.box-satellites {
-	--fill: #F3F7C1;
+.textbox-box.box-Objeto {
+	--fill: #f8b8c4;
 }
 
-.textbox-box.box-orbit {
-	--fill: #F9D4A4;
+.textbox-box.box-Tema {
+	--fill: #cff9b3;
 }
 
-.textbox-box.box-spherical {
+.textbox-box.box-Periodo {
 	--fill: #F5A2A2;
 }
 
-.textbox-box.box-fusion {
+.textbox-box.box-Comision {
 	--fill: #BC789E;
 }
 
+.textbox-box.box-Campo {
+  --fill: #fd1b8f;
+}
 
 
 img.portrait {

@@ -97,6 +97,11 @@
             </div>
             <div class="btn-toolbar flex-nowrap mb-3">
               <div class="input-group input-group-sm me-2">
+                <span class="input-group-text">Scale</span>
+                <input name="txtEle_scale" type="text" class="form-control">
+                <button type="button" class="btn btn-warning">Set</button>
+              </div>
+              <div class="input-group input-group-sm me-2">
                 <span class="input-group-text">Viewbox</span>
                 <input name="txtVb_offsetX" type="text" class="form-control">
                 <span class="input-group-text">x</span>
@@ -132,6 +137,13 @@
               <div class="tool-selection-group btn-group me-2" role="group">
                 <button type="button" class="tool-selall btn btn-outline-primary bi bi-check-circle-fill" aria-label="Select All"></button>
                 <button type="button" class="tool-selnone btn btn-outline-primary bi bi-slash-circle" aria-label="Select None"></button>
+              </div>
+              <div class="tool-file-group btn-group me-2" role="group">
+                <button type="button" class="tool-download btn btn-outline-primary bi bi-download" data-bs-toggle="button" aria-label="Download"></button>
+                <div class="tool-file2-group btn-group mt-2 d-none" role="group">
+                  <button type="button" class="tool-download-svg btn btn-outline-primary bi bi-filetype-svg" aria-label="Download SVG"></button>
+                  <button type="button" class="tool-download-png btn btn-outline-primary bi bi-file-image" aria-label="Download PNG"></button>
+                </div>
               </div>
               <div class="tool-zoom-group btn-group me-2" role="group">
                 <button type="button" class="tool-zoom-out btn btn-outline-primary bi bi-zoom-out" aria-label="Zoom Out"></button>
